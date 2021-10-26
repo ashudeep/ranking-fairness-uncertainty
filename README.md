@@ -2,7 +2,8 @@
 
 This repository is the official implementation of the NeurIPS 2021 paper [Fairness in Ranking under Uncertainty](https://arxiv.org/abs/2107.06720). 
 
-<img src="neurips2021_thumbnail.png" alt="uncertainty" width="200"/>
+<img src="neurips2021_thumbnail.png" alt="uncertainty" width="300"/>
+<img src="https://camo.githubusercontent.com/b1dff6a6513fce2ebb171af6d4c6e446b6552dadfd6f15f9f71d0d8b1c8b7e26/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f302f30382f4c6f676f5f666f725f436f6e666572656e63655f6f6e5f4e657572616c5f496e666f726d6174696f6e5f50726f63657373696e675f53797374656d732e7376672f3132303070782d4c6f676f5f666f725f436f6e666572656e63655f6f6e5f4e657572616c5f496e666f726d6174696f6e5f50726f63657373696e675f53797374656d732e7376672e706e67" alt="neurips" width="300"/>
 
 ## Requirements
 
