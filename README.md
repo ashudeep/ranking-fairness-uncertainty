@@ -1,8 +1,26 @@
-# Code for the NeurIPS 2021 paper: Fairness in Ranking under Uncertainty
+# Fairness in Ranking under Uncertainty
 
-This directory contains the code to reproduce the results of the paper "Fairness in Ranking under Uncertainty".
+This repository is the official implementation of the NeurIPS 2021 paper[Fairness in Ranking under Uncertainty](https://arxiv.org/abs/2107.06720). 
 
-The dataset may be downloaded from: <https://files.grouplens.org/datasets/movielens/ml-latest-small.zip>, and unzipped in this directory as 'ml-latest-small'.
+![uncertainty](neurips2021_thumbnail.png)
+
+## Requirements
+
+To install requirements:
+
+```setup
+pip install -r requirements.txt
+```
+
+## Dataset
+
+In the paper, we present two sets of experiments -- a simulation based on the Movielens dataset, and a real-world paper recommender system run at KDD 2020.
+
+The dataset may be downloaded from the [MovieLens website](https://files.grouplens.org/datasets/movielens/ml-latest-small.zip), and unzipped in the subdirectory 'ml-latest-small'.
+
+The details of the KDD recommender system experiment are shared in the kdd-experiment subdirectory.
+
+## Running the experiments
 
 To run the experiments, simply follow the steps as shown in the jupyter notebook 'movielens-ranking-fairness-uncertainty.ipynb'.
 
@@ -18,3 +36,7 @@ Jupyter Notebooks:
 
 - suboptimal-OPT-TS-mix.ipynb: Notebook with the example showing how OPT/TS mixing ranking policy can be suboptimal in terms of utility while the LP based ranking policy achieves optimal utility.
 - movielens-ranking-fairness-uncertainty.ipynb: Notebook with the movielens experiments.
+
+## Contributing
+
+This project is licensed under the terms of the MIT license.
