@@ -1,8 +1,8 @@
 # Fairness in Ranking under Uncertainty
 
-This repository is the official implementation of the NeurIPS 2021 paper[Fairness in Ranking under Uncertainty](https://arxiv.org/abs/2107.06720). 
+This repository is the official implementation of the NeurIPS 2021 paper [Fairness in Ranking under Uncertainty](https://arxiv.org/abs/2107.06720). 
 
-![uncertainty](neurips2021_thumbnail.png){ width: 200px; }
+![uncertainty](neurips2021_thumbnail.png =250x)
 
 ## Requirements
 
