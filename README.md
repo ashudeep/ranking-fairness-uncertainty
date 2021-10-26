@@ -30,7 +30,7 @@ The notebook uses the library which contains the following files:
 - linear_program.py: Provides necessary functions to transform the ranking problem to the linear program that can be solved by an off-the-shelf LP solver.
 - sample_rankings.py: Provides utility functions to work with ranking distributions.
 - plot_utils.py: Utility functions to plot the graphs and visualizations shown below.
--requirements.txt: To be able to run the code, these requirements must be installed. The jupyter notebook also requires a latex installation to be able to use math fonts inside the plots. If it does not work for you, please change the line with plt.rcParams['text.usetex'] from True to False.
+-requirements.txt: To be able to run the code, these requirements must be installed. The jupyter notebook also requires a latex installation to be able to use math fonts inside the plots. If it does not work for you, please change the line with ```plt.rcParams['text.usetex']''' from True to False.
 
 Jupyter Notebooks:
 
